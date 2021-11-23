@@ -1,6 +1,6 @@
 import React from "react";
 import {Link} from "react-router-dom";
-import ImagenPerfil from "./fotoperfil.jpg";
+import ImagenPerfil from "../fotoperfil.jpg";
 
 const Home = () => {
   return (
@@ -40,7 +40,7 @@ const Home = () => {
         <hr></hr>
         <div className="row align-items-start">
           <h1 id={"tituloP"} className={"col"}>Hola! Yo soy Damián Katz</h1>
-          <img className={"col"} src={ImagenPerfil} width= {200} height= {300}/>
+          <img className={"col"} src={"https://stackblitz.com/files/react-wqgsc8/github/Damian012/TP10-Portfolio/master/IMG-9922.jpg"} height= {400}/>
         </div>
         <br></br>
         <h2>Podes investigar acerca de mí: </h2>
