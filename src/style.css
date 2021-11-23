@@ -21,35 +21,32 @@ h2 {
   font-family: Georgia, 'Times New Roman', Times, serif;
   text-shadow: 2px 2px 2px rgb(0, 0, 0);
 }
-li{
+li {
   color: rgb(224, 224, 224);
 }
-h4{
+h4 {
   color: white;
-  -webkit-text-stroke: 2px black;
 }
-.form{
+.form {
   border: 2px solid black;
   padding: 10px;
   border-radius: 20px;
 }
-input{
+input {
   width: 60%;
   height: 25px;
   margin: 0 auto;
   border: none; /* <-- This thing here */
   border-radius: 5px;
 }
-textarea{
+textarea {
   margin: 0 auto;
   border: none; /* <-- This thing here */
   border-radius: 5px;
 }
-.verticalLine{ 
-  border-left: thick solid #ff0000; 
+.imagen {
+  padding: 10px;
 }
-
-
 
 .footer-dark {
   padding: 50px 0;
@@ -140,5 +137,3 @@ textarea{
   font-size: 13px;
   margin-bottom: 0;
 }
-
-

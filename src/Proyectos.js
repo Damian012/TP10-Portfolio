@@ -1,5 +1,9 @@
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
+import t from '../TP3.PNG';
+import j from '../TP6.PNG';
+import i from '../TP62.PNG';
+import h from '../TP4.PNG';
 
 const Proyectos = () => {
   return (
@@ -80,7 +84,7 @@ const Proyectos = () => {
         <center>
           <img
             src={
-              'https://lh3.googleusercontent.com/Z7l0JfqTeeK41_DGK7cRnkmagm_brdcAWCEmpXuGj_rUmOVr9vyuuoIaJtXngW1nZVg0bWjYlmGQPQsE11Og_nMH=w640-h400-e365-rj-sc0x00ffffff'
+              'https://stackblitz.com/files/react-wqgsc8/github/Damian012/TP10-Portfolio/master/TP3.PNG'
             }
             width={600}
           />
@@ -101,16 +105,18 @@ const Proyectos = () => {
         <br></br>
         <center>
           <img
+            className="imagen"
             src={
-              'https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/PHP-logo.svg/1200px-PHP-logo.svg.png'
+              'https://stackblitz.com/files/react-wqgsc8/github/Damian012/TP10-Portfolio/master/TP6.PNG'
             }
             width={600}
+            height={200}
           />
           <img
             src={
-              'https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/PHP-logo.svg/1200px-PHP-logo.svg.png'
+              'https://stackblitz.com/files/react-wqgsc8/github/Damian012/TP10-Portfolio/master/TP62.PNG'
             }
-            width={600}
+            width={300}
           />
         </center>
         <br></br>
@@ -124,14 +130,17 @@ const Proyectos = () => {
           largometraje favorito ingresando una palabra que lo identifique y
           podrás filtrar por tipo de largometraje e incluso el año, de todas
           formas, la página buscará en una gran cantidad de datos que tiene
-          almacenado las posibles opciones, mediante tu palabra clave ingresada
+          almacenado las posibles opciones, mediante tu palabra clave ingresada.
+          Incluso podrás ver más información del largometraje si tocas el boton.
           (Fue hecho con HTML, CSS y JS)
         </strong>
         <br></br>
         <br></br>
         <center>
           <img
-            src={'https://i.blogs.es/f567ac/encuentra-20tu-20peli/450_1000.jpg'}
+            src={
+              'https://stackblitz.com/files/react-wqgsc8/github/Damian012/TP10-Portfolio/master/TP4.PNG'
+            }
             width={600}
           />
           <br></br>
