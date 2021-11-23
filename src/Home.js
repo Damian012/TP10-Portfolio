@@ -1,5 +1,6 @@
 import React from "react";
 import {Link} from "react-router-dom";
+import ImagenPerfil from "./fotoperfil.jpg";
 
 const Home = () => {
   return (
@@ -39,7 +40,7 @@ const Home = () => {
         <hr></hr>
         <div className="row align-items-start">
           <h1 id={"tituloP"} className={"col"}>Hola! Yo soy Damián Katz</h1>
-          <img className={"col"} src={"https://www.guioteca.com/coaching/files/2014/05/feliz.jpg"} width= {200} height= {300}/>
+          <img className={"col"} src={ImagenPerfil} width= {200} height= {300}/>
         </div>
         <br></br>
         <h2>Podes investigar acerca de mí: </h2>
